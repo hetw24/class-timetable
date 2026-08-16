@@ -1,0 +1,11 @@
+name = "my-timetable"
+main = "index.js"
+compatibility_date = "2026-07-18"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+
+[[kv_namespaces]]
+binding = "TIMETABLE_DB"
+id = "79d777d36bc9424ca7deef48722ba564" # 这里换成你实际生成的 ID
